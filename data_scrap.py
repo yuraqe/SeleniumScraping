@@ -5,8 +5,6 @@ import re
 from fake_useragent import UserAgent
 from seleniumbase import SB
 import itertools
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
 
 
@@ -106,7 +104,7 @@ def activate_bd():
 
 print('1')
 #proxy_rotator = ProxyRotator(proxies) if u have a lot of proxies
-url = "https://www.zoopla.co.uk/to-rent/property/london/?price_frequency=per_month&q=London&search_source=home&="
+url = "***********************"
 activate_bd()
 main(url)
 
